@@ -26,7 +26,9 @@ body {
   flex-wrap: wrap;
 }
 
-#card {
+#orange-card,
+#blue-card,
+#green-card {
   height: 500px;
   width: 300px;
   color: hsla(0, 0%, 100%, 0.75);
@@ -81,7 +83,7 @@ button {
   color: hsl(179, 100%, 13%);
 }
 
-#card img {
+img {
   margin-bottom: 30px;
 }
 .attribution {
