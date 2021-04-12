@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  height: 500px;
+  width: 300px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 30px;
+}
+.orange-container {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.blue-container {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.green-container {
+  background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-weight: 400;
+  text-align: start;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border-color: white;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 100px;
+}
+
+.green-container button {
+  margin-top: 125px;
+}
+.orange-container button {
+  color: hsl(31, 77%, 52%);
+}
+
+.blue-container button {
+  color: hsl(184, 100%, 22%);
+}
+
+.green-container button {
+  color: hsl(179, 100%, 13%);
+}
+
+#card img {
+  margin-bottom: 30px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 375px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
