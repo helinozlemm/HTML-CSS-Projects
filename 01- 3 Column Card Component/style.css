@@ -66,6 +66,9 @@ button {
   border-color: white;
   background-color: hsl(0, 0%, 95%);
   margin-top: 100px;
+  cursor: pointer;
+  font-family: inherit;
+  outline: none;
 }
 
 .green-container button {
